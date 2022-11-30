@@ -1,0 +1,45 @@
+/*
+p{
+    color:red !important;
+    font-size: 50px;
+}
+
+.textcenter{
+    text-align: center;
+    color: green;
+}
+
+#headline{
+    font-weight: normal;
+}
+
+#alex{
+    color: #000;
+}
+*/
+
+h3{
+    color: #0000ff; /*ტექსტის ფერის მინიჭება */
+    font-size: 25px; /*ტექსტის  ზომა */
+    text-align: center ; /*ტექსტის  განლაგება */
+   /* text-decoration: underline overline  solid red; ტექსტის  ხაზი და მათი თვისებები */
+    text-transform: capitalize ; /* სიმბოლოების  ზომა (დიდი/პატარა) */
+    text-shadow: 1px 2px 6px #000;  /*ტექსტის  შუქჩრდილი */
+    font-weight: normal; /*ტექსტის  სისქელე */
+    letter-spacing: 5px; /*სიმბოლოებს შორის დაშორება ჰორიზონტალური  */ 
+    line-height: 15px;  /* ხაზებს შორის დაშორება */
+}
+
+
+div{
+    width: 350px; /* სიგანე */
+    background-color: blue;
+   
+   
+}
+
+.wrapper{ 
+    white-space: nowrap; /* ტექსტის  ჰორიზონტალური განლაგება */
+    overflow: hidden;  /* აქრობს ელემენტს რომელიც არის ზომის გარეთ */
+     text-overflow: ellipsis;
+}
