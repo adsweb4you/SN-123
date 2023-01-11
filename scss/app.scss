@@ -1,0 +1,17 @@
+@use "responsive";
+
+body{
+    margin: 0;
+}
+
+.container{
+    background-color: responsive.$color;
+}
+
+
+.container{
+    img{
+        background: black;
+    }
+    background-color: red;
+}

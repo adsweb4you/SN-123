@@ -1,0 +1,101 @@
+body{
+    background: linear-gradient(180deg, #060307 23.04%, #090A26 55.93%);
+}
+
+
+header{
+    background-image: url('../bg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.cards{
+    border: 3px solid #6892FF;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.cards img{
+ width: 235px;
+ object-fit: contain;
+ max-width: 100%;
+}
+
+.product h2 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 90px 0;
+}
+
+.cards h1 {
+font-family: 'Montserrat', sans-serif;
+font-weight: 700;
+line-height: 22px;
+color: #FFFFFF;
+font-size: 18px;
+margin-bottom: 0;
+}
+
+.cards p {
+font-family: 'Montserrat', sans-serif;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+color: #FFFFFF;
+padding:   50px;
+margin-bottom: 0;
+}
+
+.product .row{
+        --bs-gutter-x: 20px;
+}
+
+.btnarr {
+    background-color: transparent;
+    border: 0;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: fit-content;
+}
+
+.btnarr.left {
+   left: -70px;
+}
+
+.btnarr.right {
+    right: -70px;
+    left: inherit;
+ }
+
+ @media (max-width:1300px){
+    .btnarr.left {
+        left: -17px;
+     }
+     
+     .btnarr.right {
+         right: -17px;
+      }
+ }
+
+ @media (max-width:600px){
+    .btnarr.left {
+        left: 0px;
+     }
+     
+     .btnarr.right {
+         right: 0px;
+      }
+ }
+
+@media (min-width: 1400px) {
+    .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+        max-width: 1100px;
+    }
+}
